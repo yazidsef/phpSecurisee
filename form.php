@@ -10,19 +10,19 @@
     <form action="thanks.php" method="post">
         <!--nom-->
         <label for="nom">Nom :</label>
-        <input  type="text" name="name" id="nom">
+        <input required  type="text" name="name" id="nom">
         <!--prenom-->
         <label for="prenom">Prénom :</label>
-        <input  type="text" name="prenom" id="prenom">
+        <input required type="text" name="prenom" id="prenom">
         <!--email-->
         <label for="email">Email :</label>
-        <input  type="email" name="mail" id="email">
+        <input required type="email" name="mail" id="email">
         <!--phone-->
         <label for="phone">Téléphone :</label>
-        <input  type="tel" name="phone" id="phone">
+        <input required type="tel" name="phone" id="phone">
         <!--sujet-->
         <label for="sujet">Sujet :</label>
-        <select name="sujet" id="sujet">
+        <select required name="sujet" id="sujet">
             <option value="sujet1">Sujet 1</option>
             <option value="sujet2">Sujet 2</option>
             <option value="sujet3">Sujet 3</option>
@@ -30,7 +30,7 @@
         </select>
         <!--message-->
         <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10">
+        <textarea required name="message" id="message" cols="30" rows="10">
 
         </textarea>
         <button type="submit">Envoyer</button>
