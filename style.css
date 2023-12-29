@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+}
+
+form {
+    display: grid;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    width: 20%;
+    border: none;
+}
+
+select {
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+div {
+    display: grid;
+    margin: auto;
+    padding: 1rem;
+    width: 60%;
+    line-height: 1.5rem;
+}
